@@ -10,7 +10,7 @@ I'm completing a Bachelor's in Computer Engineering (UNED) and a Master's in Age
 - **Agentic AI** — LangGraph, Microsoft Agent Framework, Copilot Studio, MCP, RAG (ChromaDB), MLflow tracing
 - **ServiceNow** — ITSM, ITOM, Change Velocity, Virtual Agent, CMDB/CSDM, Vulnerability Response
 - **Automation & DevOps** — Ansible Automation Platform, Event-Driven Ansible, Terraform, GitHub Actions
-- **Platforms** — Azure AI Foundry, Power Platform, IBM i / Power10, Supabase, React Native
+- **Platforms** — Azure AI Foundry, Power Platform, Dynatrace (Grail/DQL), IBM i / Power10, Supabase, React Native
 
 ## Featured projects
 
@@ -29,6 +29,7 @@ A mobile app (React Native + Expo, Supabase backend) built with manual **Spec-Dr
 
 | Project | What it is |
 |---|---|
+| [NOVA](https://github.com/fsandich/NOVA) | AIOps triage for Dynatrace problems: Python service that queries Grail, classifies the root-cause hypothesis with rules covered by pytest, and opens ServiceNow incidents, exposed to an Azure AI Foundry agent behind a single Copilot Studio orchestrator. |
 | [pases-a-produccion-lowcode](https://github.com/fsandich/pases-a-produccion-lowcode) | Automated ALM for Power Platform: promote solutions Dev → Test → Prod with GitHub Actions, including Copilot Studio agents in a Git-native flow. |
 | [aap-hashi-lab-2](https://github.com/fsandich/aap-hashi-lab-2) | Hands-on lab integrating Ansible Automation Platform, Terraform Enterprise and Vault Enterprise on AWS. |
 | [ServiceNow](https://github.com/fsandich/ServiceNow) | ServiceNow scripts: RFC creation, vulnerability-driven changes, multi-select helpers and more. |
